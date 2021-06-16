@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet;
+    background-color: beige;
 }
 
 #Join-section{
@@ -9,9 +9,9 @@ body{
     align-items: center;
     margin-top: 25vh;
     margin-left: 30vw;;
-    background-color: aquamarine;
+    background-color: violet;
     border-radius: 0.25em;
-    box-shadow: 10px 1px white;
+    box-shadow: 4px 4px rgb(10, 124, 86, 0.4);
 
 }
 

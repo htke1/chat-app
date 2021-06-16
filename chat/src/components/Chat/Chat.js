@@ -1,6 +1,7 @@
 import QueryString  from "query-string"
 import { useState, useEffect } from "react"
 import io  from "socket.io-client";
+import './chat.css'
 let socket;
 const ENDPOINT="http://localhost:5000/";
 export const Chat = ({location}) =>{
@@ -21,7 +22,7 @@ export const Chat = ({location}) =>{
      setRoom(room);
     },[ location.search])
     return(
-        <div>
+        <div id="chat-section">
             <h2>Chat Room: {room}</h2>
             <h3>User: {name}</h3>
             <textarea />

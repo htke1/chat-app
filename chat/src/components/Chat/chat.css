@@ -1,0 +1,7 @@
+#chat-section{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    align-items: center;
+    margin-left: 40vw;;
+}
