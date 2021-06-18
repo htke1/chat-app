@@ -5,3 +5,9 @@
     align-items: center;
     margin-left: 40vw;;
 }
+#message-box{
+    height: 20vw;
+    width: 20vw;;
+    background-color: antiquewhite;
+    border: 1px solid black;
+}

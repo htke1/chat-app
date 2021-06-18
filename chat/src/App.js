@@ -3,6 +3,7 @@ import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import {Join} from './components/Join/Join'
 import {Chat} from './components/Chat/Chat'
+import { videochat } from './components/VideoChat/videochat';
 
 // var io = require('socket.io-client')
 // const SERVER =  "http://127.0.0.1:8080";
@@ -15,6 +16,7 @@ function App() {
     <Router>
     <Route exact path="/" component={Join}/>
     <Route path="/chat" component={Chat}/>
+    <Route path="/videochat" component={videochat}/>
     </Router>
   );
 }
